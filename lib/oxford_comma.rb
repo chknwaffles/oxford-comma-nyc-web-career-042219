@@ -4,8 +4,7 @@ def oxford_comma(array)
     msg += array.shift
     
     if array.length == 1
-      msg += " and"
-      msg += " "
+      msg += " and "
     end
   end
   msg
