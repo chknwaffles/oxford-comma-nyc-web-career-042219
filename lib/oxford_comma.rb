@@ -2,7 +2,8 @@ def oxford_comma(array)
   msg = ""
   while !array.empty?
     msg += array.shift
-    if array.length > 1
+    
+    if array.length == 1
       msg += " and"
       msg += " "
     end
