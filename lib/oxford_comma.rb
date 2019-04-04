@@ -4,7 +4,11 @@ def oxford_comma(array)
     msg += array.shift
     
     if array.length != 0
-      msg += " and "
+      if array.length > 1
+        
+      else
+        msg += " and "
+      end
     end
   end
   msg
