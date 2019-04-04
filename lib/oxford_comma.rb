@@ -1,5 +1,6 @@
 def oxford_comma(array)
   msg = ""
+  more_than_2 = false
   while !array.empty?
     msg += array.shift
     
