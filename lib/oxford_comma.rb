@@ -8,7 +8,11 @@ def oxford_comma(array)
         msg += ", "
         more_than_2 = true
       else
-        msg += " and "
+        if more_than_2 == true
+          msg += ", and "
+        else
+          msg += " and "
+        end
       end
     end
   end
