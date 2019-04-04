@@ -3,7 +3,7 @@ def oxford_comma(array)
   while !array.empty?
     msg += array.shift
     
-    if array.length != nil
+    if array.length != 1
       msg += " and "
     end
   end
