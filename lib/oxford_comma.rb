@@ -6,6 +6,7 @@ def oxford_comma(array)
     if array.length != 0
       if array.length > 1
         msg += ", "
+        more_than_2 = true
       else
         msg += " and "
       end
